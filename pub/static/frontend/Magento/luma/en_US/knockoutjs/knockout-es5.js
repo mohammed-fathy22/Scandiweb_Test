@@ -1,0 +1,1 @@
+/opt/lampp/htdocs/magento-test/lib/web/knockoutjs/knockout-es5.js

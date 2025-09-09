@@ -1,0 +1,1 @@
+/opt/lampp/htdocs/magento-test/vendor/magento/module-ui/view/base/web/js/lib/logger/entry.js

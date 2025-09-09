@@ -1,0 +1,1 @@
+/opt/lampp/htdocs/magento-test/lib/web/js-storage/storage-wrapper.js

@@ -1,0 +1,1 @@
+/opt/lampp/htdocs/magento-test/vendor/magento/module-page-cache/view/frontend/web/js/form-key-provider.js

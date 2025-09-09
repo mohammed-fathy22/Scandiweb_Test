@@ -1,0 +1,1 @@
+/opt/lampp/htdocs/magento-test/vendor/magento/module-security/view/base/web/js/escaper.js

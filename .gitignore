@@ -1,0 +1,29 @@
+# Magento generated files
+/generated/
+/var/
+/pub/static/
+/pub/media/
+
+# Composer vendor folder (can be restored with composer install)
+vendor/
+
+# Node modules (if using frontend tooling)
+node_modules/
+
+# Environment configs
+.env
+.env.*   # optional, e.g., env.local, env.development
+
+# Logs
+var/log/
+var/report/
+
+# Cache
+var/cache/
+var/page_cache/
+
+# Session files
+var/session/
+
+# Temporary files (optional)
+var/tmp/
