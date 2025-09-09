@@ -1,1 +1,0 @@
-/opt/lampp/htdocs/magento-test/lib/web/mage/requirejs/resolver.js

@@ -1,1 +1,0 @@
-/opt/lampp/htdocs/magento-test/vendor/magento/module-bundle/view/frontend/web/js/validation.js

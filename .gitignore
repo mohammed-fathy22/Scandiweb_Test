@@ -27,3 +27,18 @@ var/session/
 
 # Temporary files (optional)
 var/tmp/
+
+# IDE specific files
+.vscode/
+.idea/
+
+# OS generated files
+*.swp
+*.bak
+*.tmp
+*.log
+
+# MacOS and Windows system files
+.DS_Store
+Thumbs.db
+node_modules
