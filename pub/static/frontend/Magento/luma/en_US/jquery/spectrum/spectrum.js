@@ -1,1 +1,0 @@
-/opt/lampp/htdocs/magento-test/lib/web/jquery/spectrum/spectrum.js

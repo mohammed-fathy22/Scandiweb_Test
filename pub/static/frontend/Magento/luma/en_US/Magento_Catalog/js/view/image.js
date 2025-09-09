@@ -1,1 +1,0 @@
-/opt/lampp/htdocs/magento-test/vendor/magento/module-catalog/view/frontend/web/js/view/image.js

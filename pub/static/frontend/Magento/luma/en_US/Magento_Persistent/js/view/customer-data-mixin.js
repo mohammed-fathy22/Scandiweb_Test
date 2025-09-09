@@ -1,1 +1,0 @@
-/opt/lampp/htdocs/magento-test/vendor/magento/module-persistent/view/frontend/web/js/view/customer-data-mixin.js

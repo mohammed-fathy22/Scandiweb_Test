@@ -1,1 +1,0 @@
-/opt/lampp/htdocs/magento-test/lib/web/js-cookie/js.cookie.js
