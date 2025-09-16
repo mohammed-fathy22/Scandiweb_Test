@@ -23,12 +23,12 @@
       <server host="http://localhost" name="create-magento-app" use_path_mappings="true">
         <id>7e16e907-9ce3-4559-9d26-a30a5650d11f</id>
         <path_mappings>
-          <mapping local-root="$PROJECT_DIR$" remote-root="/opt/lampp/htdocs/magento-test"/>
+          <mapping local-root="$PROJECT_DIR$" remote-root="/home/mohammed/Scandiweb_Test"/>
         </path_mappings>
       </server>
     </servers>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="local-cma-project:magento-test-1757401444"/>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="local-cma-project:Scandiweb_Test-1757999672"/>
   <component name="RunManager">
     <configuration name="create-magento-app" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" filter_connections="FILTER" server_name="create-magento-app" session_id="PHPSTORM">
       <method v="2"/>
@@ -44,7 +44,7 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
-      <interpreter name="local-cma-project:magento-test-1757401444" composer="composer"/>
+      <interpreter name="local-cma-project:Scandiweb_Test-1757999672" composer="composer"/>
     </execution>
   </component>
 </project>

@@ -5,9 +5,27 @@
       <interpreter name="local-cma-project:magento-test-1757401444.debug" id="2fbe75d5-bc8f-4adb-8e62-ddb0ccee6428" home="docker://DATA" debugger_id="php.debugger.XDebug">
         <remote_data INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="local-cma-project:magento-test-1757401444.debug" DOCKER_REMOTE_PROJECT_PATH="/opt/lampp/htdocs/magento-test"/>
       </interpreter>
+      <interpreter name="local-cma-project:Scandiweb_Test-1757999672.debug" id="2fbe75d5-bc8f-4adb-8e62-ddb0ccee6428" home="docker://DATA" debugger_id="php.debugger.XDebug">
+        <remote_data INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="local-cma-project:Scandiweb_Test-1757999672.debug" DOCKER_REMOTE_PROJECT_PATH="/home/mohammed/Scandiweb_Test"/>
+      </interpreter>
     </interpreters>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.3">
     <option name="suggestChangeDefaultLanguageLevel" value="8.3"/>
+  </component>
+  <component name="MessDetector">
+    <phpmd_settings>
+      <MessDetectorConfiguration tool_path="$PROJECT_DIR$/vendor/bin/phpmd"/>
+    </phpmd_settings>
+  </component>
+  <component name="PhpCSFixer">
+    <phpcsfixer_settings>
+      <PhpCSFixerConfiguration tool_path="$PROJECT_DIR$/vendor/bin/php-cs-fixer" standards="PSR1;PSR2;Symfony;DoctrineAnnotation;PHP70Migration;PHP71Migration"/>
+    </phpcsfixer_settings>
+  </component>
+  <component name="PhpCodeSniffer">
+    <phpcs_settings>
+      <PhpCSConfiguration tool_path="$PROJECT_DIR$/vendor/bin/phpcs" standards="MySource;PEAR;PHPCompatibility;PSR1;PSR12;PSR2;Squiz;Zend" beautifier_path="$PROJECT_DIR$/vendor/bin/phpcbf"/>
+    </phpcs_settings>
   </component>
 </project>
