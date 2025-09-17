@@ -2,7 +2,7 @@
 
 namespace Scandiweb\Test\Setup\Patch\Data;
 
-use Magento\Catalog\Model\ProductFactory;
+use Magento\Catalog\Api\Data\ProductInterfaceFactory;
 use Magento\Catalog\Api\ProductRepositoryInterface;
 use Magento\Catalog\Model\Product;
 use Magento\Catalog\Model\Product\Attribute\Source\Status;
@@ -33,7 +33,7 @@ class AddSimpleProduct implements DataPatchInterface
     /**
      * Test patch constructor.
      *
-     * @param ProductFactory $productFactory
+     * @param ProductInterfaceFactory $productInterfaceFactory
      * @param ProductRepositoryInterface $productRepository
      * @param SourceItemInterface $sourceItemFactory
      * @param SourceItemsSaveInterface $sourceItemsSaveInterface
@@ -42,7 +42,7 @@ class AddSimpleProduct implements DataPatchInterface
      * @param EavSetup $eavSetup
      */
     public function __construct(
-        protected ProductFactory $productFactory,
+        protected ProductInterfaceFactory $productInterfaceFactory,
         protected ProductRepositoryInterface $productRepository,
         protected State $appState,
         protected StoreManagerInterface $storeManager,
@@ -68,7 +68,7 @@ class AddSimpleProduct implements DataPatchInterface
      */
     public function execute(): void
     {
-        $product = $this->productFactory->create();
+        $product = $this->productInterfaceFactory->create();
 
         if ($product->getIdBySku('test-product')) {
             return;

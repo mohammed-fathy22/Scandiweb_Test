@@ -7324,3 +7324,5 @@ Did you mean one of these?
 [2025-09-16T06:48:34.798424+00:00] main.DEBUG: Add of item with id PayPal_Braintree::settlement_report was processed [] []
 [2025-09-16T06:48:34.798499+00:00] main.DEBUG: Add of item with id PayPal_Braintree::virtual_terminal was processed [] []
 [2025-09-16T06:50:26.705083+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-09-16T13:51:11.215560+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-09-16T13:51:27.381783+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
